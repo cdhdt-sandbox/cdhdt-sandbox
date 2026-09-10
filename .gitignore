@@ -1,0 +1,30 @@
+# Secrets et état local, jamais versionnés
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+secrets/
+.secrets/
+
+# Artefacts de construction
+/bin/
+/dist/
+/vendor/
+/node_modules/
+*.tar
+*.tar.gz
+
+# État local des outils
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Instantanés et volumes de démonstration
+/snapshots/
+/data/
+
+# Documentation non publiable
+/ops/
